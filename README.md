@@ -1,23 +1,23 @@
 # Demo Blog Home Starter
 
-A Space Jelly blog homepage that renders post excerpts and dates from `data/posts.json`, with links to the full posts and newsletter.
+A Next.js blog homepage that lists post excerpts and dates, links to full posts, and promotes a newsletter.
 
-## Use this template
+## Getting Started
 
-```bash
-npx create-next-app -e https://github.com/colbyfayock/demo-blog-home-starter
-```
-
-## Local setup
-
-Install dependencies with yarn, then start the development server:
+- Set up a new project
 
 ```bash
-yarn install
-yarn dev
+npx create-next-app my-blog-home -e https://github.com/colbyfayock/demo-blog-home-starter
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view the app.
+- Navigate to your new project
 
-Use `yarn build` to create a production build.
-After building, use `yarn start` to serve the production build.
+```bash
+cd my-blog-home
+```
+
+- Start the development server
+
+```bash
+npm run dev
+```
